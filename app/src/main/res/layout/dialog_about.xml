@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/dialog_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:fontFamily="@font/solaimanlipi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="সম্পর্কে"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/holo_red_light"
+            android:textStyle="bold" />
+
+        <TextView
+            android:fontFamily="@font/solaimanlipi"
+            android:textSize="17dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="হ্যালো, আমার নাম আব্দুর রহমান এবং এই অ্যাপ্লিকেশনটি আমার দ্বারা তৈরি করা হয়েছে।"
+            android:textAlignment="center"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:textSize="17dp"
+            android:fontFamily="@font/solaimanlipi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="সুতরাং, যদি এই অ্যাপটি সম্পর্কে আপনার কোন প্রশ্ন থাকে তবে আপনি ইমেলের মাধ্যমে আমাদের সাথে যোগাযোগ করুন।"
+            android:textAlignment="center"
+            android:textColor="@android:color/white" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.08dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Email ID:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mmm.rahman77@gmail.com"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/icon" />
+    
+</RelativeLayout>
